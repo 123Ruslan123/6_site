@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif, 'Inconsolata', monospace;
+
+}
+/*header************************/
+.logo{
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 5px;
+    color: black;
+}
+.l_links{
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+    
+}
+
+.l_link{
+    text-decoration: none;
+    color: #ababab;
+
+}
+.fon{
+    margin: 0;
+    padding: 0;
+}
+
+
+.fon1{
+   width: 100%;
+}
+
+.color_t{
+    color: #ababab;
+    text-transform: uppercase;
+}
+
+/*block2*/
+
+.block_2{
+    margin: 80px 0;
+}
+
+.b2_img{
+    width: 100%;
+}
+
+/*block3*/
+
+.block_3{
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 80px 0;
+    margin: 40px 0;
+}
+
+.input-group{
+    padding: 0 20%;
+}
+
+
+
+.block_4{
+    margin: 40px 0;
+}
+
+/*block5*/
+
+.block5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.b5_but{
+    font-size: 30px;
+    text-decoration: none;
+    color: #ababab;
+    padding: 20px 40px;
+    border: 1px solid;
+}
+
+.b5_but:hover{
+    background-color: #ababab;
+    color: black;
+    transition: 0.2s linear;
+}
+
+/*block5*/
+
+.block_6{
+    background-color: #f0f0f0;
+    padding: 20px 0;
+
+}
+
+.b6_one{
+    display: flex;
+}
+
+.b6_one_a{
+    text-decoration: none;
+    color: #ababab;
+    margin-right: 15px;
+}
+
+.b6_one_a:hover{
+    color: black;
+}
+
+.b6_two{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.b6_icon{
+    margin: 0 15px;
+}
+
+/*media*/
+@media (max-width: 800px){
+    .b5_but{
+
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
+    .l_links{
+        display: none;
+    }
+}
+
+@media (max-width: 440px){
+    .b6_one,
+    .b6_two{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .b6_one_a,
+    .b6_icon{
+        margin: 10px 0;
+    }
+}
